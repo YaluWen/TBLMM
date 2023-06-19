@@ -2,7 +2,9 @@ Package: TBLMM
 Title: Bayesian linear mixed model with multiple random effects for prediction analysis on high-dimensional multi-omics data
 Version: 0.0.0.1
 Authors@R: 
-    person("Yang", "Hai", "y.hai@auckland.ac.nz", role = c("aut", "cre"))
+    c(person("Yang", "Hai", "y.hai@auckland.ac.nz", role = c("aut", "cre")),
+    person("Jixiang", "Ma", "majixiang029@gmail.com", role = c("cre")),
+    person("Yalu", "Wen", "y.wen@auckland.ac.nz", role = c("aut", "cre")))
 Description: This package implement the Bayesian linear mixed model for prediction analysis on high-dimensional multi-omicsd data. It cuts the genome into multiple chunks and selects the relevant chunk for predictions. It can consider non-linear effects by specifying the corresponding kernels. 
 License: MIT + file LICENSE
 Encoding: UTF-8
